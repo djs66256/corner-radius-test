@@ -10,9 +10,15 @@
 		6572F2781EACF1B60042EF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F2771EACF1B60042EF8C /* main.m */; };
 		6572F27B1EACF1B60042EF8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F27A1EACF1B60042EF8C /* AppDelegate.m */; };
 		6572F27E1EACF1B60042EF8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F27D1EACF1B60042EF8C /* ViewController.m */; };
-		6572F2811EACF1B60042EF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6572F27F1EACF1B60042EF8C /* Main.storyboard */; };
 		6572F2831EACF1B60042EF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6572F2821EACF1B60042EF8C /* Assets.xcassets */; };
 		6572F2861EACF1B60042EF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6572F2841EACF1B60042EF8C /* LaunchScreen.storyboard */; };
+		6572F28F1EACF2000042EF8C /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F28E1EACF2000042EF8C /* MainTableViewController.m */; };
+		6572F2921EACF51A0042EF8C /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F2911EACF51A0042EF8C /* CollectionViewController.m */; };
+		6572F2951EACF5370042EF8C /* LayerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F2941EACF5370042EF8C /* LayerCollectionViewCell.m */; };
+		6572F2981EACF5440042EF8C /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F2971EACF5440042EF8C /* ImageCollectionViewCell.m */; };
+		6572F29E1EACF5950042EF8C /* RasterizeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F29D1EACF5950042EF8C /* RasterizeCollectionViewCell.m */; };
+		6572F2A11EACF5CF0042EF8C /* ImageCacheCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F2A01EACF5CF0042EF8C /* ImageCacheCollectionViewCell.m */; };
+		6572F2A41EACFD370042EF8C /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F2A31EACFD370042EF8C /* BaseCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +28,23 @@
 		6572F27A1EACF1B60042EF8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6572F27C1EACF1B60042EF8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6572F27D1EACF1B60042EF8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6572F2801EACF1B60042EF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6572F2821EACF1B60042EF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6572F2851EACF1B60042EF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6572F2871EACF1B60042EF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6572F28D1EACF2000042EF8C /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		6572F28E1EACF2000042EF8C /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		6572F2901EACF51A0042EF8C /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		6572F2911EACF51A0042EF8C /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		6572F2931EACF5370042EF8C /* LayerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerCollectionViewCell.h; sourceTree = "<group>"; };
+		6572F2941EACF5370042EF8C /* LayerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerCollectionViewCell.m; sourceTree = "<group>"; };
+		6572F2961EACF5440042EF8C /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		6572F2971EACF5440042EF8C /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		6572F29C1EACF5950042EF8C /* RasterizeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RasterizeCollectionViewCell.h; sourceTree = "<group>"; };
+		6572F29D1EACF5950042EF8C /* RasterizeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RasterizeCollectionViewCell.m; sourceTree = "<group>"; };
+		6572F29F1EACF5CF0042EF8C /* ImageCacheCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCacheCollectionViewCell.h; sourceTree = "<group>"; };
+		6572F2A01EACF5CF0042EF8C /* ImageCacheCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCacheCollectionViewCell.m; sourceTree = "<group>"; };
+		6572F2A21EACFD370042EF8C /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		6572F2A31EACFD370042EF8C /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +77,24 @@
 		6572F2751EACF1B60042EF8C /* CornerRadius */ = {
 			isa = PBXGroup;
 			children = (
+				6572F28D1EACF2000042EF8C /* MainTableViewController.h */,
+				6572F28E1EACF2000042EF8C /* MainTableViewController.m */,
 				6572F2791EACF1B60042EF8C /* AppDelegate.h */,
 				6572F27A1EACF1B60042EF8C /* AppDelegate.m */,
+				6572F2901EACF51A0042EF8C /* CollectionViewController.h */,
+				6572F2911EACF51A0042EF8C /* CollectionViewController.m */,
+				6572F2A21EACFD370042EF8C /* BaseCollectionViewCell.h */,
+				6572F2A31EACFD370042EF8C /* BaseCollectionViewCell.m */,
+				6572F2931EACF5370042EF8C /* LayerCollectionViewCell.h */,
+				6572F2941EACF5370042EF8C /* LayerCollectionViewCell.m */,
+				6572F2961EACF5440042EF8C /* ImageCollectionViewCell.h */,
+				6572F2971EACF5440042EF8C /* ImageCollectionViewCell.m */,
+				6572F29F1EACF5CF0042EF8C /* ImageCacheCollectionViewCell.h */,
+				6572F2A01EACF5CF0042EF8C /* ImageCacheCollectionViewCell.m */,
+				6572F29C1EACF5950042EF8C /* RasterizeCollectionViewCell.h */,
+				6572F29D1EACF5950042EF8C /* RasterizeCollectionViewCell.m */,
 				6572F27C1EACF1B60042EF8C /* ViewController.h */,
 				6572F27D1EACF1B60042EF8C /* ViewController.m */,
-				6572F27F1EACF1B60042EF8C /* Main.storyboard */,
 				6572F2821EACF1B60042EF8C /* Assets.xcassets */,
 				6572F2841EACF1B60042EF8C /* LaunchScreen.storyboard */,
 				6572F2871EACF1B60042EF8C /* Info.plist */,
@@ -139,7 +171,6 @@
 			files = (
 				6572F2861EACF1B60042EF8C /* LaunchScreen.storyboard in Resources */,
 				6572F2831EACF1B60042EF8C /* Assets.xcassets in Resources */,
-				6572F2811EACF1B60042EF8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +181,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6572F29E1EACF5950042EF8C /* RasterizeCollectionViewCell.m in Sources */,
+				6572F28F1EACF2000042EF8C /* MainTableViewController.m in Sources */,
+				6572F2A11EACF5CF0042EF8C /* ImageCacheCollectionViewCell.m in Sources */,
+				6572F2A41EACFD370042EF8C /* BaseCollectionViewCell.m in Sources */,
+				6572F2981EACF5440042EF8C /* ImageCollectionViewCell.m in Sources */,
 				6572F27E1EACF1B60042EF8C /* ViewController.m in Sources */,
 				6572F27B1EACF1B60042EF8C /* AppDelegate.m in Sources */,
+				6572F2921EACF51A0042EF8C /* CollectionViewController.m in Sources */,
+				6572F2951EACF5370042EF8C /* LayerCollectionViewCell.m in Sources */,
 				6572F2781EACF1B60042EF8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,14 +197,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6572F27F1EACF1B60042EF8C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6572F2801EACF1B60042EF8C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6572F2841EACF1B60042EF8C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
