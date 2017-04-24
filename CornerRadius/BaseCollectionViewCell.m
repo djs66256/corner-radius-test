@@ -18,7 +18,7 @@
         label.text = @"F";
         label.font = [UIFont systemFontOfSize:10];
         label.textAlignment = NSTextAlignmentCenter;
-        [self.contentView addSubview:label];
+        [self addSubview:label];
     }
     return self;
 }

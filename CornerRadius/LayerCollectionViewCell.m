@@ -14,10 +14,16 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.layer.cornerRadius = 5;
+        self.layer.cornerRadius = frame.size.width/2;
         self.layer.borderColor = [UIColor blackColor].CGColor;
         self.layer.borderWidth = 1;
         self.clipsToBounds = YES;
+        
+        
+//        self.contentView.layer.cornerRadius = frame.size.width/2;
+//        self.contentView.layer.borderColor = [UIColor blackColor].CGColor;
+//        self.contentView.layer.borderWidth = 1;
+//        self.contentView.clipsToBounds = YES;
     }
     return self;
 }

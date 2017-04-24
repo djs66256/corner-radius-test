@@ -14,15 +14,15 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.layer.contents = (__bridge id)self.image.CGImage;
+        self.layer.contents = (__bridge id)[self imageWithSize:frame.size].CGImage;
     }
     return self;
 }
 
-- (UIImage *)image {
-    UIGraphicsBeginImageContextWithOptions(CGSizeMake(10, 10), NO, [UIScreen mainScreen].scale);
+- (UIImage *)imageWithSize:(CGSize)size {
+    UIGraphicsBeginImageContextWithOptions(size, NO, [UIScreen mainScreen].scale);
     [[UIColor blackColor] setStroke];
-    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(0.5, 0.5, 9, 9) cornerRadius:5];
+    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(0.5, 0.5, size.width - 1, size.height - 1) cornerRadius:size.width/2];
     path.lineWidth = 1;
     [path stroke];
     UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
