@@ -33,7 +33,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 4;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -52,6 +52,9 @@
                 break;
             case 3:
                 cell.textLabel.text = @"image cache";
+                break;
+            case 4:
+                cell.textLabel.text = @"content";
                 break;
             default:
                 break;
@@ -76,6 +79,9 @@
                 break;
             case 3:
                 identifier = @"imageCache";
+                break;
+            case 4:
+                identifier = @"content";
                 break;
             default:
                 break;

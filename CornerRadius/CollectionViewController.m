@@ -11,6 +11,7 @@
 #import "ImageCollectionViewCell.h"
 #import "RasterizeCollectionViewCell.h"
 #import "ImageCacheCollectionViewCell.h"
+#import "BaseContentCollectionViewCell.h"
 
 @interface CollectionViewController ()
 
@@ -27,6 +28,7 @@
     [self.collectionView registerClass:[RasterizeCollectionViewCell class] forCellWithReuseIdentifier:@"rasterize"];
     [self.collectionView registerClass:[ImageCollectionViewCell class] forCellWithReuseIdentifier:@"image"];
     [self.collectionView registerClass:[ImageCacheCollectionViewCell class] forCellWithReuseIdentifier:@"imageCache"];
+    [self.collectionView registerClass:[BaseContentCollectionViewCell class] forCellWithReuseIdentifier:@"content"];
     
     UICollectionViewFlowLayout *layout = (UICollectionViewFlowLayout *)self.collectionViewLayout;
     layout.itemSize = CGSizeMake(10, 10);

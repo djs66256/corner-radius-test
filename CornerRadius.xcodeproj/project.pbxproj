@@ -19,6 +19,7 @@
 		6572F29E1EACF5950042EF8C /* RasterizeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F29D1EACF5950042EF8C /* RasterizeCollectionViewCell.m */; };
 		6572F2A11EACF5CF0042EF8C /* ImageCacheCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F2A01EACF5CF0042EF8C /* ImageCacheCollectionViewCell.m */; };
 		6572F2A41EACFD370042EF8C /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F2A31EACFD370042EF8C /* BaseCollectionViewCell.m */; };
+		65E97DBE1EB735E900EB6F73 /* BaseContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E97DBD1EB735E900EB6F73 /* BaseContentCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		6572F2A01EACF5CF0042EF8C /* ImageCacheCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCacheCollectionViewCell.m; sourceTree = "<group>"; };
 		6572F2A21EACFD370042EF8C /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
 		6572F2A31EACFD370042EF8C /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		65E97DBC1EB735E900EB6F73 /* BaseContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseContentCollectionViewCell.h; sourceTree = "<group>"; };
+		65E97DBD1EB735E900EB6F73 /* BaseContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseContentCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				6572F2911EACF51A0042EF8C /* CollectionViewController.m */,
 				6572F2A21EACFD370042EF8C /* BaseCollectionViewCell.h */,
 				6572F2A31EACFD370042EF8C /* BaseCollectionViewCell.m */,
+				65E97DBC1EB735E900EB6F73 /* BaseContentCollectionViewCell.h */,
+				65E97DBD1EB735E900EB6F73 /* BaseContentCollectionViewCell.m */,
 				6572F2931EACF5370042EF8C /* LayerCollectionViewCell.h */,
 				6572F2941EACF5370042EF8C /* LayerCollectionViewCell.m */,
 				6572F2961EACF5440042EF8C /* ImageCollectionViewCell.h */,
@@ -192,6 +197,7 @@
 				6572F2921EACF51A0042EF8C /* CollectionViewController.m in Sources */,
 				6572F2951EACF5370042EF8C /* LayerCollectionViewCell.m in Sources */,
 				6572F2781EACF1B60042EF8C /* main.m in Sources */,
+				65E97DBE1EB735E900EB6F73 /* BaseContentCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
